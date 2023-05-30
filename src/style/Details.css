@@ -1,0 +1,39 @@
+.Contener2{
+    display: flex;
+    margin: 20px;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    padding: 20px 20px 20px 20px;
+    background-color: #11009E;
+    width: 80%;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #C4B0FF;
+    border: 2px solid #8696FE;
+    border-radius: 12px;
+}
+.details img{
+    margin: 10px 10px 10px 10px;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    border: 2px solid #8696FE;
+}
+.details h2{
+    margin: 20px 20px 20px 20px;
+}
+
+@media (max-width: 500px) {
+    .Contener2{
+        margin: 0;
+    }
+    .details img{
+        margin: 0;
+        width: 200px;
+        height: 300px;
+    }
+}

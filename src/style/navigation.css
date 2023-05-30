@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11009E;
+    border-bottom: 2px solid #8696FE;
+}
+nav{
+    padding: 15px;
+}
+nav h2{
+    color: #C4B0FF;
+}

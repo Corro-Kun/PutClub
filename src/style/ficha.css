@@ -1,0 +1,38 @@
+.ficha{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    border: 2px solid #8696FE;
+    background-color: #11009E;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    box-shadow: 0 0 5px #C4B0FF;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.ficha:hover{
+    box-shadow: 0 0 20px #11009E;
+}
+.ficha:hover h2{
+    font-size: 1.8em;
+    transition: .5s ease-in-out;
+}
+.ficha h2{
+    color: #C4B0FF;
+}
+.ficha img{
+    width: 100%;
+    height: 92%;
+    border-bottom: 2px solid #8696FE;
+}
+
+@media (max-width: 500px) {
+    .ficha{
+        width: 300px;
+        height: 400px;
+    }
+}
